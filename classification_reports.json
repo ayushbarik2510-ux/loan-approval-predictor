@@ -1,0 +1,88 @@
+{
+  "Logistic Regression": {
+    "confusion_matrix_labels": [
+      "Rejected",
+      "Approved"
+    ],
+    "confusion_matrix": [
+      [
+        280,
+        43
+      ],
+      [
+        32,
+        499
+      ]
+    ],
+    "classification_report": {
+      "Rejected": {
+        "precision": 0.8974358974358975,
+        "recall": 0.8668730650154799,
+        "f1-score": 0.8818897637795275,
+        "support": 323.0
+      },
+      "Approved": {
+        "precision": 0.9206642066420664,
+        "recall": 0.9397363465160076,
+        "f1-score": 0.9301025163094129,
+        "support": 531.0
+      },
+      "accuracy": 0.9121779859484778,
+      "macro avg": {
+        "precision": 0.9090500520389819,
+        "recall": 0.9033047057657437,
+        "f1-score": 0.9059961400444703,
+        "support": 854.0
+      },
+      "weighted avg": {
+        "precision": 0.9118787922701781,
+        "recall": 0.9121779859484778,
+        "f1-score": 0.9118674822729341,
+        "support": 854.0
+      }
+    }
+  },
+  "Decision Tree": {
+    "confusion_matrix_labels": [
+      "Rejected",
+      "Approved"
+    ],
+    "confusion_matrix": [
+      [
+        316,
+        7
+      ],
+      [
+        15,
+        516
+      ]
+    ],
+    "classification_report": {
+      "Rejected": {
+        "precision": 0.9546827794561934,
+        "recall": 0.978328173374613,
+        "f1-score": 0.9663608562691132,
+        "support": 323.0
+      },
+      "Approved": {
+        "precision": 0.9866156787762906,
+        "recall": 0.9717514124293786,
+        "f1-score": 0.9791271347248577,
+        "support": 531.0
+      },
+      "accuracy": 0.9742388758782201,
+      "macro avg": {
+        "precision": 0.9706492291162421,
+        "recall": 0.9750397929019958,
+        "f1-score": 0.9727439954969854,
+        "support": 854.0
+      },
+      "weighted avg": {
+        "precision": 0.974538013108385,
+        "recall": 0.9742388758782201,
+        "f1-score": 0.9742986710934695,
+        "support": 854.0
+      }
+    }
+  }
+}

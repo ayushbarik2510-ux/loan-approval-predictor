@@ -1,0 +1,4 @@
+no_of_dependents,education,self_employed,income_annum,loan_amount,loan_term,cibil_score,residential_assets_value,commercial_assets_value,luxury_assets_value,bank_asset_value,prediction,approval_score
+2.0,Graduate,No,2400000,6000000,10,780,5000000.0,0,3000000,2000000.0,Approved,1.0
+1.0,Not Graduate,Yes,1800000,6000000,12,420,2000000.0,1000000,2000000,500000.0,Rejected,0.0
+,,No,3500000,8000000,8,720,,0,4000000,,Approved,1.0

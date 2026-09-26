@@ -1,0 +1,7 @@
+{
+  "url": "https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/architsharma01/loan-approval-prediction-dataset?datasetVersionNumber=1",
+  "sha256": "4b5cd093d178378f4cfa8c107adb6e599b88be9d8a3b51f3b99c0d5914154e54",
+  "note": "Educational public Kaggle dataset. Authentic Indian customer/bureau provenance is unverified. Monetary and loan-term units are not documented in the publisher description; use the dataset's original units.",
+  "license_as_listed_by_uploader": "MIT"
+}

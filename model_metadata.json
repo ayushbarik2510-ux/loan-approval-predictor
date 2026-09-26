@@ -1,0 +1,117 @@
+{
+  "model_name": "Decision Tree",
+  "feature_names": [
+    "no_of_dependents",
+    "education",
+    "self_employed",
+    "income_annum",
+    "loan_amount",
+    "loan_term",
+    "cibil_score",
+    "residential_assets_value",
+    "commercial_assets_value",
+    "luxury_assets_value",
+    "bank_asset_value"
+  ],
+  "target_mapping": {
+    "Rejected": 0,
+    "Approved": 1
+  },
+  "positive_class": "Approved",
+  "selection_metric": "five-fold training-set cross-validation ROC-AUC",
+  "best_parameters": {
+    "model__ccp_alpha": 0.0,
+    "model__class_weight": null,
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 30
+  },
+  "cv_roc_auc": 0.9945590515275878,
+  "held_out_metrics": {
+    "cv_roc_auc_mean": 0.9945590515275878,
+    "cv_roc_auc_std": 0.002565958206138677,
+    "train_accuracy": 0.9727672035139092,
+    "test_accuracy": 0.9742388758782201,
+    "test_precision": 0.9866156787762906,
+    "test_recall": 0.9717514124293786,
+    "test_f1": 0.9791271347248577,
+    "test_roc_auc": 0.9947992280468536
+  },
+  "random_seed": 42,
+  "test_fraction": 0.2,
+  "training_rows": 3415,
+  "test_rows": 854,
+  "probabilities_calibrated": false,
+  "training_numeric_ranges": {
+    "no_of_dependents": {
+      "min": 0.0,
+      "max": 5.0
+    },
+    "income_annum": {
+      "min": 200000.0,
+      "max": 9900000.0
+    },
+    "loan_amount": {
+      "min": 300000.0,
+      "max": 38800000.0
+    },
+    "loan_term": {
+      "min": 2.0,
+      "max": 20.0
+    },
+    "cibil_score": {
+      "min": 300.0,
+      "max": 900.0
+    },
+    "residential_assets_value": {
+      "min": 0.0,
+      "max": 29100000.0
+    },
+    "commercial_assets_value": {
+      "min": 0.0,
+      "max": 19400000.0
+    },
+    "luxury_assets_value": {
+      "min": 300000.0,
+      "max": 39200000.0
+    },
+    "bank_asset_value": {
+      "min": 0.0,
+      "max": 14700000.0
+    }
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.5.3"
+  },
+  "python_version": "3.13.15",
+  "dataset_source": "https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset",
+  "dataset_note": "Educational public Kaggle dataset. Authentic Indian customer/bureau provenance is unverified. Monetary and loan-term units are not documented in the publisher description; use the dataset's original units.",
+  "dataset_sha256": "4b5cd093d178378f4cfa8c107adb6e599b88be9d8a3b51f3b99c0d5914154e54",
+  "model_sha256": "ce827e44268810e37c7eccf6ab33b1e0501f28c144add7c191226800af35564f",
+  "audit": {
+    "original_rows": 4269,
+    "negative_residential_asset_rows": 28,
+    "missing_values_after_stateless_cleaning": {
+      "no_of_dependents": 0,
+      "education": 0,
+      "self_employed": 0,
+      "income_annum": 0,
+      "loan_amount": 0,
+      "loan_term": 0,
+      "cibil_score": 0,
+      "residential_assets_value": 28,
+      "commercial_assets_value": 0,
+      "luxury_assets_value": 0,
+      "bank_asset_value": 0
+    },
+    "duplicate_profiles_removed": 0,
+    "usable_rows": 4269,
+    "target_counts": {
+      "Approved": 2656,
+      "Rejected": 1613
+    }
+  }
+}
